@@ -1,23 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import Contact from "./Contact";
+import Navbar from "./Navbar";
+import Main from "./Main";
+import Projects from "./Projects";
+import About from "./About";
+import Skills from "./Skills";
+import { useState, useEffect } from 'react';
+
+const getStorageTheme = () => {
+  let theme = 'light';
+  if(localStorage.getItem('theme')) {
+    theme = localStorage.getItem('theme');
+  }
+  return theme;
+}
 
 function App() {
+  const [theme, setTheme] = useState(getStorageTheme());
+
+  const toggleTheme = () => {
+    if(theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
+  useEffect(() => {
+    document.documentElement.className = theme;
+    localStorage.setItem('theme', theme);
+  }, [theme])
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Main change={toggleTheme}/>
+      <About/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
     </div>
   );
 }
