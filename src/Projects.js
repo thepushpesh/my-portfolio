@@ -40,7 +40,7 @@ export default function Projects() {
                 </div>
 
                 <div className="work">
-                    <a href="https://twitter-mini-clone.netlify.app" target="_blank">
+                    <a href="https://yourbrand.netlify.app" target="_blank">
                         <img className='one' src="./images/brand.png" alt=""/>
                     </a>
                     <div className="description">
@@ -50,8 +50,8 @@ export default function Projects() {
                             <p>If you want to make yor brand big or want a website for your perfect brand you can give a shot get the best design, art, color to your brand so that it can get more attention.</p>
                         </div>
                             <div className="open">
-                                <a href="" target="_blank"><button><IoLogoGithub/></button></a>
-                                <a href="" target="_blank"><button><IoMdOpen/></button></a>
+                                <a href="https://github.com/thepushpesh/branding" target="_blank"><button><IoLogoGithub/></button></a>
+                                <a href="https://yourbrand.netlify.app" target="_blank"><button><IoMdOpen/></button></a>
                             </div>
                     </div>
                 </div>
@@ -64,12 +64,12 @@ export default function Projects() {
                             <p>Want to Paint your new beautiful house just choose the best products from out store, get our customers reviews to get a better idea.</p>
                         </div>
                             <div className="open">
-                                <a href="" target="_blank"><button><IoLogoGithub/></button></a>
-                                <a href="" target="_blank"><button><IoMdOpen/></button></a>
+                                <a href="https://github.com/thepushpesh/paint" target="_blank"><button><IoLogoGithub/></button></a>
+                                <a href="https://painthome.netlify.app" target="_blank"><button><IoMdOpen/></button></a>
                             </div>
                     </div>
-                    <a href="" target='_blank'>
-                    <img className='two' src="./images/desk1.jpg" alt=""/>
+                    <a href="https://painthome.netlify.app" target='_blank'>
+                        <img className='two' src="./images/paint.png" alt=""/>
                     </a>
                 </div>
             </div>
