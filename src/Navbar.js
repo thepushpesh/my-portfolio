@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 
 export default function Navbar() {
-      const [showLinks, setShowLinks] = useState(false);
+      const [showLinks, setShowLinks] = useState(true);
     //   const toggleLinks = () => {
     //     setShowNav(!showNav);
     // };

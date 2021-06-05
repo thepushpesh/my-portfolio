@@ -24,7 +24,7 @@ body{
   box-sizing: border-box;
 }
 
-.light{
+.dark{
   --bgcolor: hsl(216, 65%, 11%);
   --glow: #64FFDA;
   --blli: #CCD6F6;
@@ -35,7 +35,7 @@ body{
   --navback: #1f2d57;
 }
 
-.dark{
+.light{
   --bgcolor: rgb(208, 227, 230);
   --glow: hsl(204, 99%, 35%);
   --blli: #000;
@@ -314,9 +314,7 @@ body{
 
 
 
-.work .one, .two {
-  /* padding-bottom: 5em; */
-}
+
 
 .project-inside h2:after {
   content: "";
@@ -390,7 +388,6 @@ padding: 1.5em;
   object-fit: cover;
   position: center;
 } */
-
 
 
 
@@ -686,6 +683,8 @@ padding: 1.5em;
   }
   .work .one, .work .two {
     opacity: 1;
+    border-radius: 6px;
+    border: 5px solid var(--blmi);
   }
   .work .one {
     width: 600px;
