@@ -25,17 +25,17 @@ export default function Projects() {
                 <div className="work">
                     <div className="description1">
                         <h4>2 - Featured Projects</h4>
-                        <h3>Twitter mini clone</h3>
+                        <h3>Grocery Bud</h3>
                         <div className="para1">
-                            <p>A Twitter mini clone where you can tweet, edit your tweet, like it and also can delete it and rest are the dummy things included all the twitter side bar section.</p>
+                            <p>A Grocery bud list where you can add items, delete items, edit items and also clear the list, It all works in you local storage you can keep the list.</p>
                         </div>
                             <div className="open">
-                                 <a href="https://github.com/thepushpesh/twitter-web-app" target="_blank"><button><IoLogoGithub/></button></a>
-                                 <a href="https://twitter-mini-clone.netlify.app" target="_blank"><button><IoMdOpen/></button></a>
+                                 <a href="https://github.com/thepushpesh/grocery-list" target="_blank"><button><IoLogoGithub/></button></a>
+                                 <a href="https://grocery-map.netlify.app" target="_blank"><button><IoMdOpen/></button></a>
                             </div>
                     </div>
-                    <a href="https://twitter-mini-clone.netlify.app" target="_blank">
-                        <img className='two' src="./images/twitter.png" alt=""/>
+                    <a href="https://grocery-map.netlify.app" target="_blank">
+                        <img className='two' src="./images/market.png" alt=""/>
                     </a>
                 </div>
 
