@@ -298,23 +298,15 @@ body{
   color: var(--glow);
 }
  .project-inside p {
-   color: var(--blda);
-   /* padding: 1.2em; */
+   color: var(--blli);
 }
 .project-inside {
   position: relative;
 }
 
-
-
-
 .work, .two {
   margin-top: 3em;
 }
-
-
-
-
 
 .project-inside h2:after {
   content: "";
@@ -331,12 +323,9 @@ body{
 padding: 1.5em;
 }
 
-
-
 .description1 {
   padding-top: 6em;
 }
-
 
 .description h3, .description1 h3 {
   color: var(--blli);
@@ -353,11 +342,6 @@ padding: 1.5em;
 .description .para, .para1 {
   margin: 1.5em 0;
 }
-
-
-
-
-
 
 .work .one {
   height: 350px;
@@ -380,15 +364,6 @@ padding: 1.5em;
   position: absolute;
  
 }
-
-
-/* .work img {
-  width: 100%;
-  height: 360px;
-  object-fit: cover;
-  position: center;
-} */
-
 
 
 /* ********Skills************ */
